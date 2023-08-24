@@ -57,7 +57,7 @@ const StateDetails = ({ params }) => {
         <div style={{ maxWidth: `960px`, margin: `1.45rem` }}>
             <div>
                 <h1>
-                    {getFullStateName(params.state_name.toUpperCase())}
+                    {getFullStateName(params?.state_name?.toUpperCase())}
                 </h1>
                 <h2>{"City"}</h2>
             </div>
